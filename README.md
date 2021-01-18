@@ -6,13 +6,15 @@ Anaconda is required.
 To install, run
 
 ```bash
-conda env create -f environment.yml```
+conda env create -f environment.yml
+```
 
 Then to generate FAQs out of a website,
 
 ```bash
 conda activate magnesium
-python FAQgenerator.py https://www.searchenginejournal.com/google-ads-to-start-hiding-some-search-query-data/379840/```
+python FAQgenerator.py https://www.searchenginejournal.com/google-ads-to-start-hiding-some-search-query-data/379840/
+```
 
 Tested on Ubuntu 20.04.1.
 
