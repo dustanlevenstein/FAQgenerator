@@ -1,0 +1,17 @@
+name: magnesium
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - codecov
+  - pip=20.3.3
+  - pip:
+    - requests-html==0.10.0
+    - transformers==3.1.0
+    - jinja2==2.11.2
+    - nltk==3.2.5
+    - torch==1.7.1
+    - sentencepiece==0.1.95
+    - protobuf==3.14.0
+prefix: /Users/username/anaconda3/envs/env-name
